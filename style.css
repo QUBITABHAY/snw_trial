@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: Sevillana;
+    border: border-box; 
+}
+
+.top{
+     height: 90px;
+     background-color: antiquewhite;
+     display: flex;
+     align-items: center;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("logo.png");
+    background-size: cover;
+    margin-right: 0%;
+}
+  
+.border{
+    border: 2px solid transparent ;
+}
+
+.border:hover{
+    border: 2px solid skyblue;
+}
+
+.navtext{
+    margin:  0px;
+    margin-left: 0%;
+    font-size: 4rem;
+}
+
+.lik{
+    /* margin-left: 65%; */
+    margin-left: auto;
+    align-items: center;
+    font-size: 2rem;
+}
+a:hover{
+    color: rgba(56, 86, 217, 0.79);
+}
+
+a{
+    color: rgb(21, 105, 10);
+}
+
+@media (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        margin: auto;
+    }
+    .top{
+        height: 130px;
+        margin-top: 1vh;
+    }
+} 
+
+@media (max-width: 480) {
+    nav{
+        flex-direction: column;
+    }
+    *{
+        margin: 0%;
+    }
+}

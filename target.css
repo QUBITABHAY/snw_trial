@@ -1,0 +1,65 @@
+.main{
+    background-color: yellow;
+    height: 700px;
+    padding-top: 50px;
+}
+
+.cir{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.incir{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.icir{
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.cile{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.vile{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
